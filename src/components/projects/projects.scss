@@ -1,0 +1,99 @@
+@import '../../global.scss' ;
+
+.projects{
+    background-color:$mainColor ;
+    display: flex;
+    height: fit-content;
+    padding-top: 70px;
+    
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        color:rgb(129, 180, 238);    
+        
+        .content{
+            width: 100%;
+            display: inherit;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    
+            .container{
+                width: 80%;
+                padding-top: 10px;
+                color: rgb(117, 178, 231);
+
+                
+                h1{
+                    margin-top:0;
+                    margin-bottom: 15px;
+                    font-size: 50px; 
+                }
+    
+                .item{
+                    display: inline-block;
+                    width: 250px;
+                    height: 290px;
+                    background-color: rgb(16, 23, 54);
+                    border-radius: 8px;
+                    border: 2px solid blue;
+                    margin-right: 10px;
+                    margin-bottom: 5px;
+                    padding: 30px;
+                    padding-top: 10px;
+                    transition: all 0.1s ease;
+                    &:hover{
+                        -webkit-transform: translateY(-3px);
+                        background-color: rgb(12, 49, 90);         
+                        box-shadow:2px 2px 3px rgb(127, 199, 250);   
+                    }
+    
+                    .iconsBar{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        
+                        .icon{
+                            font-size: 40px;
+                            color: rgb(213, 235, 255)
+                        }
+        
+                        a{
+                            margin-top: 5px;
+                            color: rgb(213, 235, 255);
+    
+                            .gitHubIcon{
+                                font-size: 28px;  
+                                                    
+                            }
+                        }
+                    }
+    
+                    h3{
+                        padding-top: 22px;
+                        padding-bottom: 20px;
+                        text-align: left;
+                        font-size: 20px;
+                    }
+    
+                    p{
+                        font-size: 13.5px;
+                        padding-bottom: 8px;
+                        text-align: justify;
+                        color:rgb(196, 225, 250);
+                    }
+    
+                    .pLang{
+                        padding-top: 10px;
+                        color: rgb(85, 122, 131);
+                    }
+                }
+            }
+        }
+    }
+}
