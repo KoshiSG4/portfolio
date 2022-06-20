@@ -7,10 +7,10 @@ export default function About() {
             <div className="left">
                 <div className="content">
                   <h1>About Me</h1>
-                  <p>Hello! My name is Koshila Gunasinghe and I am a second-year student who studies BSc (Hons) Computer Science at the Informatic Institute of Technology in Sri Lanka, which awarded by the University of Westminster in UK aspiring 
+                  <p>Hello! My name is Koshila Gunasinghe and I am a second-year student, who studies BSc (Hons) Computer Science at the Informatic Institute of Technology in Sri Lanka, which is awarded by the University of Westminster in the UK, aspiring 
   to be a software developer.</p>
-                  <p> I am a highly driven and dedicated personality who puts forth my best effort to attain organizational goals by utilizing my knowledge as well as my interpersonal qualities while refining and learning new things as a team player and as a keen individual wanting to learn new things.
-  </p>
+                  <p> I enjoy learning new things, and regarding my major, I enjoy learning full-stack web & mobile development. Next, I would like to learn about machine learning concepts and, work on creating a project that will benefit the community.</p>
+                  <p>I like to introduce myself as a fast learner who is adaptable to change, a problem solver, and a team player. Apart from that, I enjoy listening to music, watching tv series, and reading fictions in my leisure time.</p>
                 </div> 
             </div>
         </div>
