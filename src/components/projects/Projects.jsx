@@ -23,6 +23,9 @@ export default function Projects() {
             <div className="item">
               <div className='iconsBar'>
                 <FolderOpenOutlined className="icon"/>
+                <a href="https://github.com/KoshiSG4/Test-And-Collect-Movie-Knowledge.git">
+                  <GitHub className='gitHubIcon'/>
+                </a>
               </div>
               <h3>Test And Collect Movie Knowledge</h3>
               <p>An application developed to help users with testing and acquiring new knowledge regarding various movies and save them according to their will.</p>
@@ -32,6 +35,9 @@ export default function Projects() {
             <div className="item">
               <div className='iconsBar'>
                 <FolderOpenOutlined className="icon"/>
+                <a href="https://github.com/KoshiSG4/Math-Expressions-Calculator.git">
+                  <GitHub className='gitHubIcon'/>
+                </a>
               </div>            
               <h3>Math Expressions Calculator</h3>
               <p>A simple mobile game where the user has to evaluate arithmetic expressions and choose the correct comparative within a given time. Time will be added according to the number of correct answers.</p>
@@ -41,6 +47,9 @@ export default function Projects() {
             <div className="item">
               <div className='iconsBar'>
                 <FolderOpenOutlined className="icon"/>
+                <a href="https://github.com/KoshiSG4/Formula-1-Racing-Car-Championship.git">
+                  <GitHub className='gitHubIcon'/>
+                </a>
               </div>
               <h3>Formula 1 Racing Car Championship</h3>
               <p>A racing car championship programme where they maintain the information of number of cars, number of drivers, teams and winnings etc.</p>
@@ -50,6 +59,9 @@ export default function Projects() {
             <div className="item">
               <div className='iconsBar'>
                 <FolderOpenOutlined className="icon"/>
+                <a href="https://github.com/KoshiSG4/Covid-19-Vaccination-Center-Programme.git">
+                  <GitHub className='gitHubIcon'/>
+                </a>
               </div>
               <h3>Covid 19 Vaccination Center Programme</h3>
               <p>A program for a COVID-19 vaccination center which can vaccinate six people simultaneously. This program contains 6 booths and all three vaccination types were given according to the user requirement and also keeps track of the patients' information.</p>
