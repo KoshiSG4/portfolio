@@ -8,7 +8,7 @@ export default function About() {
                 <div className="content">
                   <h1>About Me</h1>
                   <p>Hello! My name is Koshila Gunasinghe and I am a second year computer science student at IIT Sri Lanka which is awarded by the University of Westminster in the UK.</p>
-                  <p> I enjoy learning, experimenting and building new programms. My main focus is full-stack web & mobile development which allows me to use while improving my creativity along with the analytical skills. Also, I am interested in machine learning concepts. And currently I am working on creating a project in collaboration with a physician about preventive health and health education.</p>
+                  <p> I enjoy learning, experimenting and building new programms. My main focus is full-stack web & mobile development which allows me to use while improving my creativity along with the analytical skills. Also, I am interested in machine learning concepts. </p>
                   <p>In addition to my academic and career interests, I enjoy listening to music, mostly pop music, watching tv series, and sometimes reading fictions.</p>
                 </div> 
             </div>
