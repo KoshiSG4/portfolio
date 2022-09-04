@@ -16,7 +16,7 @@ export default function Home() {
             <h3>
               <Typewriter
                 options={{ 
-                  strings:["Full-Stack Development", "Web Development", "Mobile App Development","Human Computer Interactions"],
+                  strings:["Full-Stack Development", "Web Development", "Mobile App Development"],
                   autoStart:true,
                   delay:50,
                   loop:true

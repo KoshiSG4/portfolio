@@ -6,7 +6,7 @@ export default function Skills() {
       <div className="wrapper">
         <div className="container">
           <h1>Experience</h1>
-          <p>~ Technologies I've Been Working With ~</p>
+          <p>~ Technologies I've Worked With ~</p>
           <div className="logoContainer">
             <div className="logo">
               <img src="assets/java.png" alt="Java Logo" />

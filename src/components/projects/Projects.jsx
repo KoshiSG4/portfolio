@@ -27,8 +27,8 @@ export default function Projects() {
                   <GitHub className='gitHubIcon'/>
                 </a>
               </div>
-              <h3>Test And Collect Movie Knowledge</h3>
-              <p>An application developed to help users with testing and acquiring new knowledge regarding various movies and save them according to their will.</p>
+              <h3>Test And Collect Movies</h3>
+              <p>An application developed for users to test their movie knowledge and learn more about the movies they are interested in.</p>
               <p className='pLang'>Kotlin</p>
             </div>
 
@@ -39,8 +39,8 @@ export default function Projects() {
                   <GitHub className='gitHubIcon'/>
                 </a>
               </div>            
-              <h3>Math Expressions Calculator</h3>
-              <p>A simple mobile game where the user has to evaluate arithmetic expressions and choose the correct comparative within a given time. Time will be added according to the number of correct answers.</p>
+              <h3>Arithmetic Expressions Evaluator</h3>
+              <p>A mobile game created to evaluate math ability of the user. In a given time, the user must assess mathematical equations and select the appropriate comparator. </p>
               <p className='pLang'>Kotlin</p>
             </div>
           
@@ -52,7 +52,7 @@ export default function Projects() {
                 </a>
               </div>
               <h3>Formula 1 Racing Car Championship</h3>
-              <p>A racing car championship programme where they maintain the information of number of cars, number of drivers, teams and winnings etc.</p>
+              <p>A racing car championship manager programme that maintains the information of its' competitors and competitions. UI was built using Java Swing.</p>
               <p className='pLang'>Java &emsp; Java Swing</p>
             </div>
 
@@ -64,7 +64,7 @@ export default function Projects() {
                 </a>
               </div>
               <h3>Covid 19 Vaccination Center Programme</h3>
-              <p>A program for a COVID-19 vaccination center which can vaccinate six people simultaneously. This program contains 6 booths and all three vaccination types were given according to the user requirement and also keeps track of the patients' information.</p>
+              <p>A program for monitoring of the patients and vaccination information for a COVID-19 vaccination center. UI was built using Java FX.</p>
               <p className='pLang'>Java &emsp; Java FX</p>
             </div>
 
@@ -73,7 +73,7 @@ export default function Projects() {
                 <FolderOpenOutlined className="icon"/>
               </div>
               <h3>Solo Adventurer (Group Project)</h3>
-              <p>An interactive website where promotes tourism within the country, users are able to play small quiz, purchase merchandises, identify new locations etc. </p>
+              <p>An interactive website where promotes tourism within the country. Users are able to play a small quiz, purchase merchandises, and identify new locations etc. </p>
               <p className='pLang'>HTML &emsp; CSS &emsp; JavaScript</p>
             </div>
           </div>
