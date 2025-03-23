@@ -1,53 +1,77 @@
 @import '../../global.scss';
 
-.about{
-    background-color: $mainColor;
-    display: flex;
-    height: fit-content;
-    padding-top: 150px;
-    padding-bottom: 150px;
+.about {
+	background-color: $mainColor;
+	display: flex;
+	height: fit-content;
+	padding-top: 150px;
+	padding-bottom: 150px;
 
-    .wrapper{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        justify-items: center;
-        align-content: center;
-    
-        .left{
-            width:65%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            justify-items: center;
-            align-content: center;
-            align-items: center;
-            text-align: center;
-            
-            
-            .content{
-                
-                text-align: justify;
-                
+	.wrapper {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		justify-items: center;
+		align-content: center;
 
-                h1{
-                    margin-top: 10px;
-                    font-size: 50px;
-                    color:rgb(129, 180, 238);
-                    margin-bottom: 30px;
-                    
-                }
-    
-                p{
-                    font-size: 18px;
-                    line-height: 40px;
-                    margin-bottom: 18px;
-                    color: rgb(143, 202, 250);
-                }
-            }
-        }
-        
-    }
+		.left {
+			width: 65%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			justify-items: center;
+			align-content: center;
+			align-items: center;
+			text-align: center;
+
+			.content {
+				text-align: justify;
+
+				.aboutContainer {
+					display: flex;
+					align-items: center;
+					gap: 20px;
+					width: 100%;
+					height: 400px;
+					overflow: hidden;
+
+					p {
+						flex-basis: 55%;
+						flex-shrink: 0;
+						margin: 0;
+						box-sizing: border-box;
+					}
+
+					img {
+						flex-basis: 45%;
+						max-width: 100%;
+						height: auto;
+						border-radius: 8px;
+						background-color: antiquewhite;
+						margin: 30px;
+						object-fit: cover;
+						box-sizing: border-box;
+					}
+				}
+
+				h1 {
+					margin-top: 10px;
+					font-size: 50px;
+					color: rgb(129, 180, 238);
+					margin-bottom: 30px;
+				}
+
+				p,
+				ul,
+				h5 {
+					font-size: 18px;
+					line-height: 40px;
+					margin-bottom: 18px;
+					color: rgb(143, 202, 250);
+				}
+			}
+		}
+	}
 }
